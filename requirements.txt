@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+groq
+Pillow
+fpdf2
+python-dotenv
