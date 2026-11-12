@@ -394,7 +394,7 @@ def make_pdf(
 
 with st.sidebar:
     st.title("🩺 MediHelp AI")
-    st.caption("Intelligent Health Companion — Groq Edition")
+    st.caption("Intelligent Health Companion")
     st.divider()
 
     st.subheader("👤 Patient Profile")
@@ -421,10 +421,6 @@ with st.sidebar:
         "Allergies", value=p.get("allergies", ""), placeholder="e.g. Penicillin"
     )
     st.session_state.patient_profile = p
-
-    st.divider()
-    st.caption(f"🤖 Text: `{TEXT_MODEL}`")
-    st.caption(f"🖼️ Vision: `llama-4-scout`")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
