@@ -1,6 +1,0 @@
-streamlit
-google-generativeai
-Pillow
-duckduckgo-search
-fpdf2
-python-dotenv
