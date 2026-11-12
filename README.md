@@ -1,6 +1,6 @@
 # 🩺 MediHelp AI
 
-**MediHelp AI** is an intelligent health companion web app built with Streamlit and Google's Gemini 2.5 Flash model. It helps users understand their symptoms, decode medical reports and scans, and get quick, science-backed answers to health questions — all through a simple conversational interface.
+**MediHelp AI** is an intelligent health companion web app built with Streamlit and Groq's model. It helps users understand their symptoms, decode medical reports and scans, and get quick, science-backed answers to health questions — all through a simple conversational interface.
 
 > ⚠️ **Disclaimer:** MediHelp AI is an educational tool and does **not** replace professional medical advice, diagnosis, or treatment. Always consult a licensed doctor for personal health decisions. In case of a medical emergency, call your local emergency number immediately.
 
@@ -54,7 +54,7 @@
 | Component | Technology |
 |---|---|
 | Frontend & App Framework | [Streamlit](https://streamlit.io/) |
-| AI Model | [Google Gemini 2.5 Flash](https://ai.google.dev/) (`google-generativeai` SDK) — text + vision |
+| AI Model | [Groq qwen/qwen3.8-27b — text + vision |
 | Image Handling | Pillow (PIL) |
 | PDF Generation | fpdf2 |
 | Environment Config | python-dotenv |
@@ -97,7 +97,7 @@ Create a `.env` file in the project root:
 ```
 GOOGLE_API_KEY=your_gemini_api_key_here
 ```
-Get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/).
+Get a free Groq API key from [Groq Console](https://console.groq.com/keys).
 
 ### 5. Run the app
 ```bash
